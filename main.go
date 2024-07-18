@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/diego-all/bridge-exe/cmd"
 
 func main() {
-	fmt.Println("Hola, mundo")
+	cmd.Execute()
 }
